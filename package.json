@@ -1,15 +1,19 @@
 {
   "name": "snakes-demo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Multiplayer Snakes & Ladders demo (Express + Socket.IO)",
+  "main": "snakes.js",
+  "type": "commonjs",
   "scripts": {
+    "start": "node snakes.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "express": "^5.1.0",
     "socket.io": "^4.8.1"
